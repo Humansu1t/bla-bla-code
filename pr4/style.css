@@ -1,0 +1,47 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #666;
+    font-weight: 400;
+}
+.img1{
+    background-image: url('../new\ project/images/gracia-dharma-qTlbO6mkQH0-unsplash.jpg');
+    min-height: 100%;
+}
+.img2{
+    background-image: url('../new\ project/images/tim-mossholder-tq8Cuap8_wY-unsplash.jpg');
+    min-height: 100%;  
+}
+.img1,.img2{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.webtitle{
+    background-color: #111;
+    color: aliceblue;
+    padding: 20px;
+}
+@media (max-width: 700px){
+    .img1{
+        background-attachment: scroll;
+    }
+}
